@@ -1,0 +1,48 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - bgibot</title>
+        <link>http://bgibot.ru/tags/</link>
+        <description>Tags - Tag - bgibot</description>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>stbgi@ya.ru (Dinar)</managingEditor>
+            <webMaster>stbgi@ya.ru (Dinar)</webMaster><lastBuildDate>Fri, 25 Nov 2022 22:00:00 &#43;0800</lastBuildDate><atom:link href="http://bgibot.ru/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Informatics</title>
+    <link>http://bgibot.ru/tags/informatics/</link>
+    <pubDate>Fri, 25 Nov 2022 22:00:00 &#43;0800</pubDate>
+    <author>Dinar</author>
+    <guid>http://bgibot.ru/tags/informatics/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Week</title>
+    <link>http://bgibot.ru/tags/week/</link>
+    <pubDate>Fri, 25 Nov 2022 22:00:00 &#43;0800</pubDate>
+    <author>Dinar</author>
+    <guid>http://bgibot.ru/tags/week/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>内容</title>
+    <link>http://bgibot.ru/tags/content/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Dinar</author>
+    <guid>http://bgibot.ru/tags/content/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>安装</title>
+    <link>http://bgibot.ru/tags/installation/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Dinar</author>
+    <guid>http://bgibot.ru/tags/installation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>配置</title>
+    <link>http://bgibot.ru/tags/configuration/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Dinar</author>
+    <guid>http://bgibot.ru/tags/configuration/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

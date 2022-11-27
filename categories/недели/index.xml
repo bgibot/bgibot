@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Недели - Category - bgibot</title>
+        <link>http://bgibot.ru/categories/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8/</link>
+        <description>Недели - Category - bgibot</description>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>stbgi@ya.ru (Dinar)</managingEditor>
+            <webMaster>stbgi@ya.ru (Dinar)</webMaster><lastBuildDate>Fri, 25 Nov 2022 22:00:00 &#43;0800</lastBuildDate><atom:link href="http://bgibot.ru/categories/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8/" rel="self" type="application/rss+xml" /><item>
+    <title>12 неделя</title>
+    <link>http://bgibot.ru/posts/12week/</link>
+    <pubDate>Fri, 25 Nov 2022 22:00:00 &#43;0800</pubDate>
+    <author>Динар</author>
+    <guid>http://bgibot.ru/posts/12week/</guid>
+    <description><![CDATA[<p>12 неделя</p>]]></description>
+</item>
+</channel>
+</rss>

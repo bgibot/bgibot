@@ -4,15 +4,15 @@
         <link>http://bgibot.ru/</link>
         <description>This is my cool site|</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>stbgi@ya.ru (Dinar)</managingEditor>
-            <webMaster>stbgi@ya.ru (Dinar)</webMaster><lastBuildDate>Fri, 25 Nov 2022 22:00:00 &#43;0800</lastBuildDate>
+            <webMaster>stbgi@ya.ru (Dinar)</webMaster><lastBuildDate>Tue, 06 Feb 2024 09:00:00 &#43;0800</lastBuildDate>
             <atom:link href="http://bgibot.ru/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>12 неделя</title>
-    <link>http://bgibot.ru/posts/12week/</link>
-    <pubDate>Fri, 25 Nov 2022 22:00:00 &#43;0800</pubDate>
-    <author>Динар</author>
-    <guid>http://bgibot.ru/posts/12week/</guid>
-    <description><![CDATA[<p>12 неделя</p>]]></description>
+    <title>Архивация данных</title>
+    <link>http://bgibot.ru/posts/practic1/</link>
+    <pubDate>Tue, 06 Feb 2024 09:00:00 &#43;0800</pubDate>
+    <author>админ</author>
+    <guid>http://bgibot.ru/posts/practic1/</guid>
+    <description><![CDATA[1 неделя]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Архивация данных - bgibot</title><meta name="Description" content="1 неделя"><meta property="og:title" content="Архивация данных" />
+<meta property="og:description" content="1 неделя" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://bgibot.ru/posts/practic1/" /><meta property="og:image" content="http://bgibot.ru/posts/practic1/featured-image.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-02-06T09:00:00+08:00" />
+<meta property="article:modified_time" content="2024-02-06T09:00:00+08:00" /><meta property="og:site_name" content="My cool site" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://bgibot.ru/posts/practic1/featured-image.png"/>
+<meta name="twitter:title" content="Архивация данных"/>
+<meta name="twitter:description" content="1 неделя"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://bgibot.ru/posts/practic1/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Архивация данных",
+        "inLanguage": "ru",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/bgibot.ru\/posts\/practic1\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/bgibot.ru\/posts\/practic1\/featured-image.png",
+                            "width":  1420 ,
+                            "height":  708 
+                        }],"genre": "posts","keywords": "10класс, информатика","wordcount":  2400 ,
+        "url": "http:\/\/bgibot.ru\/posts\/practic1\/","datePublished": "2024-02-06T09:00:00+08:00","dateModified": "2024-02-06T09:00:00+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "админ"
+            },"description": "1 неделя"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="bgibot">БГИБОТ</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Новости </a><a class="menu-item" href="/tags/"> Теги </a><a class="menu-item" href="/categories/"> Категории </a><a class="menu-item" href="/categories/documentation/"> Документы </a><a class="menu-item" href="/about/"> Контакты </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="bgibot">БГИБОТ</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Новости</a><a class="menu-item" href="/tags/" title="">Теги</a><a class="menu-item" href="/categories/" title="">Категории</a><a class="menu-item" href="/categories/documentation/" title="">Документы</a><a class="menu-item" href="/about/" title="">Контакты</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Архивация данных</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://bashkortostan.site" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>админ</a>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>практика</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-02-06">2024-02-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2400 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;12 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/practic1/featured-image.png"
+        data-srcset="/posts/practic1/featured-image.png, /posts/practic1/featured-image.png 1.5x, /posts/practic1/featured-image.png 2x"
+        data-sizes="auto"
+        alt="/posts/practic1/featured-image.png"
+        title="1 неделя" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ход-работы">Ход работы</a></li>
+    <li><a href="#теоретические-сведения-к-практической-работе">Теоретические сведения к практической работе</a>
+      <ul>
+        <li><a href="#основные-понятия-процесса-архивации">Основные понятия процесса архивации</a></li>
+      </ul>
+    </li>
+    <li><a href="#практическая-часть">Практическая часть</a></li>
+    <li><a href="#контрольные-вопросы">Контрольные вопросы</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="тема-работа-с-прикладным-программным-обеспечением-архивация-данных">Тема: Работа с прикладным программным обеспечением. Архивация данных.</h1>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Цель работы:<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">проверить уровень теоретических и практических знаний по теме: «Определение объемов различных носителей информации. Научиться архивировать файлы с разными значениями сжатия. Развить умения собирать новую информацию, сравнивать, анализировать и  делать выводы.</div>
+        </div>
+    </div>
+<p><strong>Порядок выполнения работы</strong></p>
+<ol>
+<li>Познакомиться с теоретическим материалом.</li>
+<li>Выполнить задания из практической работы.</li>
+<li>Ответить на контрольные вопросы (письменно).</li>
+<li>Оформить отчёт и написать вывод.</li>
+</ol>
+<h2 id="ход-работы">Ход работы</h2>
+<h2 id="теоретические-сведения-к-практической-работе">Теоретические сведения к практической работе</h2>
+<blockquote>
+<p><strong>Информационный объект</strong> — это совокупность логически связанной информации.</p>
+</blockquote>
+<p>Информационный объект, «отчужденный» от объекта-оригинала, можно хранить на различных материальных носителях. Простейший материальный носитель информации — это бумага. Есть также магнитные, электронные, лазерные и другие носители информации.
+С информационными объектами, зафиксированными на материальном носителе, можно производить те же действия, что и с информацией при работе на компьютере: вводить их, хранить, обрабатывать, передавать. При работе с информационными объектами большую роль играет компьютер. Используя возможности, которые предоставляют пользователю офисные технологии, можно создавать разнообразные профессиональные компьютерные документы, которые будут являться разновидностями информационных объектов. Все, что создается в компьютерных средах, будет являться информационным объектом.
+Литературное произведение, газетная статья, приказ — примеры текстовых информационных объектов. Рисунки, чертежи, схемы — это графические информационные объекты. Различные документы в табличной форме — это примеры табличных информационных объектов. Видео и музыка – аудиовизуальные информационные объекты.
+Довольно часто мы имеем дело с составными документами, в которых информация представлена в разных формах. Такие документы могут содержать и текст, и рисунки, и таблицы, и формулы, и многое другое. Школьные учебники, журналы, газеты — это хорошо знакомые всем примеры составных документов, являющихся информационными объектами сложной структуры. Для создания составных документов используются программные среды, в которых предусмотрена возможность представления информации в разных формах. Другими примерами сложных информационных объектов могут служить создаваемые на компьютере презентации и гипертекстовые документы.
+Для хранения и передачи электронных информационных объектов используют съемные цифровые носители.</p>
+<blockquote>
+<p><strong>Носитель информации</strong> (информационный носитель) — любой материальный объект или среда, используемый для хранения или передачи информации.</p>
+</blockquote>
+<p>К ним относятся:
+	<strong>съемный жесткий диск</strong> — устройство хранения информации, основанное на принципе магнитной записи, информация записывается на жёсткие (алюминиевые или стеклянные) пластины, покрытые слоем ферромагнитного материала,
+	<strong>дискета</strong> — портативный носитель информации, используемый для многократной записи и хранения данных, представляющий собой помещённый в защитный пластиковый корпус гибкий магнитный диск, покрытый ферромагнитным слоем,
+	<strong>компакт-диск</strong>  — оптический носитель информации в виде пластикового диска с отверстием в центре, процесс записи и считывания информации которого осуществляется при помощи лазера (CD-ROM и DVD-диск - предназначенный только для чтения; CD-RW и DVD-RW информация может записываться многократно),
+	<strong>карта памяти или флеш-карта</strong> — компактное электронное запоминающее устройство, используемое для хранения цифровой информации (они широко используются в электронных устройствах, включая цифровые фотоаппараты, сотовые телефоны, ноутбуки, MP3-плееры и игровые консоли),
+	<strong>USB-флеш-накопитель (сленг. флэшка)</strong> — запоминающее устройство, использующее в качестве носителя флеш-память и подключаемое к компьютеру или иному считывающему устройству по интерфейсу USB.</p>
+<p>Если говорить об информации в целом, то измеряется она в байтах. Измерение в этих единицах началось с далёкого 1956 года. Тогда этой величины вполне хватало. Чтоб было понятней, о какой величине идёт речь, 1 байт = 1 символ.</p>
+<p>С развитием технологий увеличивался и объем информации, и измерять большой объем информации в байтах стало неудобно. Тогда появились приставки килобайт (КБ), мегабайт (МБ), гигабайт (ГБ), терабайт (ТБ) и т.д.
+Сравним эти величины:
+— 1 Кб (один килобайт) = 1024 байта, и это объем информации приблизительно в один печатный лист А4-го формата;
+— 1 Мб (один мегабайт) = 1024 килобайта, и это объем информации уже приличного томика страниц на 600-700!
+— 1 Гб (один гигабайт) = 1024 мегабайт, и это уже целая библиотека из 1024 книг по 600 страниц!
+— 1 Тб (один терабайт) = 1024 гигабайта, этот объем информации сравним со средней Европейской библиотекой, где содержится около 8 миллионов книг. Для примера, в Российской государственной библиотеке находится около 43 миллионов единиц.
+Носители информации характеризуются информационной емкостью, то есть количеством информации, которое они могут хранить. Наиболее информационно емкими являются молекулы ДНК, которые имеют очень малый размер и плотно упакованы. Это позволяет хранить огромное количество информации (до 1021 битов в 1 см3), что дает возможность организму развиваться из одной-единственной клетки, содержащей всю необходимую генетическую информацию.
+Современные микросхемы памяти позволяют хранить в 1 см3 до 1010 битов информации, однако это в 100 миллиардов раз меньше, чем в ДНК. Можно сказать, что современные технологии пока существенно проигрывают биологической эволюции.</p>
+<p>Сравним объем и вид информации относительно носителей, на которые эту информацию можно записать.
+— <em>Дискета емкостью 1,44 Мб.</em> Когда-то дискета была основным доступным носителем цифровой информации, т.к. записать на неё можно было действительно много чего. Теперь же дискеты используют в основном бухгалтера для хранения электронных ключей и подписей. Причина банальна – на дискете мало места для хранения современной информации. На дискету можно записать одну, две фотографии, сделанных на мобильном телефоне с 3х мегапиксельной камерой; пять, десять Word, Excel документов.
+— <em>Флэшка емкостью 1 Гб.</em> На флэшку емкостью 1 Гб можно записать: один фильм, относительно неплохого качества; около 200 музыкальных файлов в формате .mp3; около 200 фотографий хорошего качества; множество документов и программ небольшого размера.
+— <em>CD диск емкостью 700 Мб.</em> На CD диск можно записать: один фильм в формате .avi, в относительно хорошем качестве; около 150 музыкальных файлов в формате .mp3; около 150 фотографий хорошего качества; множество документов и программ небольшого размера.
+— DVD диск емкостью 4,7ГБ. На DVD диск можно записать: один фильм в формате DVD или HDTV; 4-5 фильмов в формате .avi хорошего качества; около 1200 музыкальных файлов в формате .mp3; около 1000 фотографий хорошего качества; оооочень много документов и программ.
+— <em>Винчестер емкостью 120 Гб.</em> Тут, чтобы не расписывать до документов, сравню с количеством фильмов, которые можно записать на такой винчестер. Так вот, на винчестер емкостью 120 Гб можно записать 25 фильмов в DVD или HDTV качестве!
+— Для определения информационного объема, например учебника, будем использовать кодировку КОИ-8, в которой 1 символ кодируется 1байтом (8 битами). Для этого воспользуемся формулами:</p>
+<blockquote>
+<p>Информационный объем страницы = Количество символов в строке * Количество строк;
+Информационный объем учебника = Информационный объем страницы * Количество страниц.</p>
+</blockquote>
+<p>Все программы и данные хранятся в долговременной (внешней) памяти компьютера в виде файлов.</p>
+<blockquote>
+<p>Файл — это определенное количество информации (программа или данные), имеющее имя и хранящееся в долговременной (внешней) памяти.</p>
+</blockquote>
+<p>Имя файла состоит из двух частей, разделенных точкой: собственно имя файла и расширение, определяющее его тип (программа, данные и т. д.). Собственно имя файлу дает пользователь, а тип файла обычно задается программой автоматически при его создании.</p>
+<p><strong>Тип файла             	Расширение</strong>
+Исполняемые программы 	exe, com
+Текстовые файлы 	txt, rtf, doc
+Графические файлы 	bmp, gif, jpg, png, pds и др.
+Web-страницы 	htm, html
+Звуковые файлы 	wav, mp3, midi, kar, ogg
+Видеофайлы	 avi, mpeg</p>
+<p>В операционной системе Windows имя файла может иметь до 255 символов, причем допускается использование русского алфавита, разрешается использовать пробелы и другие ранее запрещенные символы, за исключением следующих девяти: <strong>/:*?&quot;&lt;&gt;|</strong>. В имени файла можно использовать несколько точек. Расширением имени считаются все символы, стоящие за последней точкой.
+Роль расширения имени файла чисто информационная, а не командная. Если файлу с рисунком присвоить расширение имени ТХТ, то содержимое файла от этого не превратится в текст. Его можно просмотреть в программе, предназначенной для работы с текстами, но ничего вразумительного такой просмотр не даст.
+Атрибуты файла устанавливаются для каждого файла и указывают системе, какие операции можно производить с файлами. Существует четыре атрибута:</p>
+<ul>
+<li>
+<p>только чтение (R);</p>
+</li>
+<li>
+<p>архивный (A);</p>
+</li>
+<li>
+<p>скрытый (H);</p>
+</li>
+<li>
+<p>системный (S).</p>
+<p>Атрибут файла «Только чтение».
+Данный атрибут указывает, что файл нельзя изменять. Все попытки изменить файл с атрибутом «только чтение», удалить его или переименовать завершатся неудачно.
+Атрибут файла «Скрытый».
+Файл с таким атрибутом не отображается в папке. Атрибут можно применять также и к целым папкам. Надо помнить, что в системе предусмотрена возможность отображения скрытых файлов, для этого достаточно в меню Проводника Сервис – Свойства папки – вкладка Вид – Показывать скрытые файлы и папки.
+Атрибут файла «Архивный».
+Такой атрибут имеют практически все файлы, его включение/отключение практически не имеет никакого смысла. Использовался атрибут программами резервного копирования для определения изменений в файле.
+Атрибут файла «Системный».
+Этот атрибут устанавливается для файлов, необходимых операционной системе для стабильной работы. Фактически он делает файл скрытым и только для чтения. Самостоятельно выставить системный атрибут для файла невозможно.
+Для изменения атрибутов файла необходимо открыть окно его свойств и включить соответствующие опции.
+Существуют также дополнительные атрибуты, к ним относятся атрибуты индексирования и архивации, а также атрибуты сжатия и шифрования.</p>
+<p><strong>Запись информации.</strong>
+Запись информации - это способ фиксирования информации на материальном носителе.</p>
+<p>Способы записи информации на компакт-диски:</p>
+<ol>
+<li>
+<p>с помощью специальных программ записи (Nero, CDBurnerXP, Burn4Free, CD DVD Burning и др.);</p>
+</li>
+<li>
+<p>через задачи для записи CD (помещаем нужные объекты на диск с помощью перетаскивания или копирования, выбираем в задачах записи CD «записать файлы на компакт-диск»).</p>
+<p>Способы записи информации на остальные съемные цифровые носители:</p>
+</li>
+<li>
+<p>копирование (выделяем нужные объекты, нажимаем правой кнопкой мыши, в появившемся контекстном меню выбираем «копировать»; через контекстное меню правой кнопки мыши, выбирая «вставить», вставляем объекты на нужный цифровой носитель);</p>
+</li>
+<li>
+<p>перетаскивание (выделяем нужные объекты, нажимаем левую кнопку мыши, удерживая её, перетаскиваем документы на нужный цифровой носитель).</p>
+</li>
+</ol>
+<h3 id="основные-понятия-процесса-архивации">Основные понятия процесса архивации</h3>
+<p>При передачи и хранении различных файлов необходимо учитывать объем этих файлов. Если объем слишком велик, можно создать архив файлов с помощью программ архиваторов (7-zip, WinRAR, WinZip).</p>
+<p><strong>Архивация</strong> – это сжатие одного или более файлов с целью экономии памяти и размещение сжатых данных в одном архивном файле.
+<strong>Архивация данных</strong> – это уменьшение физических размеров файлов, в которых хранятся данные, без значительных информационных потерь.
+Архивация проводится в следующих случаях:
+— когда необходимо создать резервные копии наиболее ценных файлов;
+— когда необходимо освободить место на диске;
+— когда необходимо передать файлы по е-mail;
+<strong>Архивный файл</strong> <em>представляет собой</em> набор из нескольких файлов (одного файла), помещенных в сжатом виде в единый файл, из которого их можно при необходимости извлечь в первоначальном виде. Архивный файл <em>содержит</em> оглавление, позволяющее узнать, какие файлы содержатся в архиве.
+В оглавлении архива для каждого содержащегося в нем файла хранится следующая информация:
+— имя файла;
+— размер файла на диске и в архиве;
+— сведения о местонахождения файла на диске;
+— дата и время последней модификации файла;
+— код циклического контроля для файла, используемый для проверки целостности архива;
+— степень сжатия.
+Любой из архивов имеет свою шкалу степени сжатия. Чаще всего можно встретить следующую <strong>градацию методов сжатия</strong>:
+— без сжатия (соответствует обычному копированию файлов в архив без сжатия);
+— скоростной;
+— быстрый (характеризуется самым быстрым, но наименее плотным сжатием);
+— обычный;
+— хороший;
+— максимальный (максимально возможное сжатие является одновременно и самым медленным методом сжатия).
+Лучше всего архивируются графические файлы в формате .bmp, документы MS Office и Web-страницы.</p>
+<p><strong>Популярные архиваторы</strong></p>
+<p><strong>WinRAR</strong> поддерживает все форматы файлов, включая малораспространённые, и позволяет как упаковывать, так и извлекать их. Встроенные алгоритмы распознают тип контента и автоматически выбирают наиболее эффективное сжатие. Можно разделять архивы на части для удобной передачи, а также надёжно защищать их с помощью 256‑битного шифрования и электронной подписи.</p>
+<p><strong>7‑Zip</strong> Не менее известный инструмент для работы с архивами, который имеет открытый исходный код. Он полностью бесплатен для любого использования, включая коммерческое. 7‑Zip очень легковесный (1 МБ), совсем не требователен к ресурсам и запросто справляется с любыми архивами.</p>
+<p><strong>PeaZip</strong> Ещё один архиватор с открытым исходным кодом, который поддерживает более 200 форматов сжатия, в том числе и самые экзотические. В PeaZip встроен полноценный менеджер файлов для поиска, просмотра и редактирования контента. Приложение умеет защищать архивы не только паролем — есть двухфакторная аутентификация с помощью ключа.</p>
+<p><strong>Zip Archiver</strong> Быстрый архиватор с приятным, интуитивным дизайном и интересными дополнительными возможностями. Zip Archiver позволяет открывать множество различных форматов, но создаёт архивы только в ZIP и 7z. Программа отличается высокой степенью сжатия и встроенным просмотрщиком.</p>
+<p><strong>Программа-архиватор WinRAR</strong></p>
+<p>Программа-архиватор WinRar была создана российскими братьями-программистами Евгением и Александром Рошал с целью использования высокоэффективных алгоритмов сжатия данных.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/practic1/1061893_3.png"
+        data-srcset="/posts/practic1/1061893_3.png, /posts/practic1/1061893_3.png 1.5x, /posts/practic1/1061893_3.png 2x"
+        data-sizes="auto"
+        alt="/posts/practic1/1061893_3.png"
+        title="img" width="768" height="516" /></p>
+<p>Основные функции этой программы такие:</p>
+<ul>
+<li>создание архивов файлов и папок с возможным сжатием данных;</li>
+<li>добавление файлов и папок к уже существующим архивам;</li>
+<li>просмотр содержимого архивов;</li>
+<li>создание многотомных архивов (архив разбивается на несколько отдельных файлов –томов), размер томов устанавливает пользователь;</li>
+<li>создание обычных и многотомных архивов, которые содержат программы самостоятельного извлечения файлов и папок, без участия программы- архиватора – так называемых SFX – архивов;</li>
+<li>проверка целостности в архивах;</li>
+<li>шифровка данных и имен файлов в архивах.</li>
+</ul>
+<p>Создание архива с использованием программы-архиватора WinRAR можно выполнить несколькими способами:</p>
+<ol>
+<li>Выполнить следующий алгоритм:</li>
+</ol>
+<ul>
+<li>Запустить программу WinRar на выполнение (Пуск = Все программы = WinRAR = WinRAR);</li>
+<li>Выполнить Команды=Добавить файлы в архив;</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/practic1/1061893_4.png"
+        data-srcset="/posts/practic1/1061893_4.png, /posts/practic1/1061893_4.png 1.5x, /posts/practic1/1061893_4.png 2x"
+        data-sizes="auto"
+        alt="/posts/practic1/1061893_4.png"
+        title="img" width="503" height="419" /></p>
+<ul>
+<li>Выбрать вкладку файлы;</li>
+<li>Выбрать нужные объекты для архивации;</li>
+<li>Выбрать вкладку общие;</li>
+<li>Ввести в поле имя архива имя архивного файла;</li>
+<li>Указать папку, в которой будет сохранен архив (кнопка Обзор);</li>
+<li>Выбрать метод сжатия;</li>
+<li>Указать значение параметров архивации (при необходимости);</li>
+<li>Выбрать формат архивного файла (RAR или ZIP);</li>
+<li>Создать многотомный архивный файл (при необходимости);</li>
+<li>Выбрать кнопку ОК.</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/practic1/1061893_5.png"
+        data-srcset="/posts/practic1/1061893_5.png, /posts/practic1/1061893_5.png 1.5x, /posts/practic1/1061893_5.png 2x"
+        data-sizes="auto"
+        alt="/posts/practic1/1061893_5.png"
+        title="img" width="753" height="122" /></p>
+<ol start="2">
+<li>При помощи контекстного меню: выбор команды Добавить в архив или Добавить в архив и отправить по e-mail открывает окно установки режимов архивации.</li>
+</ol>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/practic1/1061893_6.png"
+        data-srcset="/posts/practic1/1061893_6.png, /posts/practic1/1061893_6.png 1.5x, /posts/practic1/1061893_6.png 2x"
+        data-sizes="auto"
+        alt="/posts/practic1/1061893_6.png"
+        title="img" width="511" height="428" /></p>
+<p>Для извлечения объектов из архива необходимо:</p>
+<ol>
+<li>Запустить архив, объекты которого нужно извлечь;</li>
+<li>Выполнить Команды = Извлечь в указанную папку (или выбрать извлечь на Панели инструментов);</li>
+<li>Указать в диалоговом окне Путь и параметры извлечения папку, в которую будет осуществляется извлечение;</li>
+<li>Установить значения параметров извлечения;</li>
+<li>Выбрать кнопку ОК.</li>
+</ol>
+<p>Можно использовать контекстное меню файла архива: Извлечь файлы, Извлечь в текущую папку…</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/practic1/1061893_7.png"
+        data-srcset="/posts/practic1/1061893_7.png, /posts/practic1/1061893_7.png 1.5x, /posts/practic1/1061893_7.png 2x"
+        data-sizes="auto"
+        alt="/posts/practic1/1061893_7.png"
+        title="img" width="324" height="409" /></p>
+<h2 id="практическая-часть">Практическая часть</h2>
+<p><a href="/posts/practic1/arhiv.zip" rel="">Download</a>
+</p>
+<p><strong>Задание</strong></p>
+<ol>
+<li>изучить метод сжатия информации архивацией данных.</li>
+<li>выяснить, какие файлы целесообразно подвергать архивации.</li>
+</ol>
+<p><strong>Ход работы:</strong></p>
+<ol>
+<li>На компьютере в личной папке создать папку с именем «Архивация».</li>
+<li>В нее скопировать следующие типы файлов: графический (jpg  и png), текстовый, звуковой, видео.</li>
+<li>Заархивировать каждый файл и всю папку, используя программу архиватор RAR.</li>
+</ol>
+<p><strong>Технология создания архива при помощи программы</strong> <strong>WinRAR</strong></p>
+<ol>
+<li>Выделить необходимый файл</li>
+<li>Открыть контекстное меню, выбрать команду <em>WinR<strong>А</strong>R</em> <em>– добавить в архив.</em></li>
+<li>Выбрать формат архива RAR, метод сжатия <em>обычный.</em></li>
+<li>Посмотреть, как изменится размер файла по отношению к размеру архива.</li>
+<li>Результаты занести в таблицу и посчитать коэффициент сжатия по формуле</li>
+</ol>
+<p>Кс=(Vc/Vo)*100%</p>
+<p><em>Степень сжатия файлов характеризуется коэффициентом Кс, определяемым как отношение объема сжатого файла Vc к объему исходного файла Vо, выраженное в процентах</em></p>
+<p>Степень сжатия зависит от используемой программы, метода сжатия и типа исходного файла.</p>
+<table>
+<thead>
+<tr>
+<th><em><strong>Имя файла</strong></em></th>
+<th><em><strong>Тип файла</strong></em></th>
+<th><em><strong>Размер файла</strong></em></th>
+<th><em><strong>Размер архива</strong></em></th>
+<th><em><strong>Коэффициент сжатия</strong></em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Сделать вывод по работе.</strong> В выводе указать, какие файлы следует сжимать и почему. (Докажите или опровергните утверждение, приведенное ниже)</p>
+<blockquote>
+<p>Для справки! Наиболее хорошо сжимаются файлы графических образов, текстовые файлы и файлы данных, для которых коэффициент сжатия может достигать 5 - 40%, меньше сжимаются файлы исполняемых программ и загрузочных модулей Кс = 60 - 90%. Почти не сжимаются архивные файлы.</p>
+</blockquote>
+<p>Разархивируем файлы. Выполнить эту операцию можно двойным кликом по файлу архива, либо через контекстное меню - Извлечь файлы. При разархивации запароленного архива от вас потребуется ввести пароль.</p>
+</li>
+</ul>
+<h2 id="контрольные-вопросы">Контрольные вопросы</h2>
+<ol>
+<li>Носители  информации  -  это</li>
+<li>Что является оптическим носителем информации?</li>
+<li>В целях сохранения информации гибкие магнитные диски необходимо оберегать от &hellip;</li>
+<li>Какой компьютерный носитель информации вышел из массового употребления?</li>
+<li>Что участвует в записи и чтении CD и DVD- дисков?</li>
+<li>В какой системе счисления хранится информация в компьютере?</li>
+</ol></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-02-06</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://bgibot.ru/posts/practic1/" data-title="Архивация данных" data-hashtags="10класс,информатика"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://bgibot.ru/posts/practic1/" data-hashtag="10класс"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://bgibot.ru/posts/practic1/" data-title="Архивация данных"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://bgibot.ru/posts/practic1/" data-title="Архивация данных"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://bgibot.ru/posts/practic1/" data-title="Архивация данных"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/10%D0%BA%D0%BB%D0%B0%D1%81%D1%81/">10класс</a>,&nbsp;<a href="/tags/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/">информатика</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.106.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Dinar</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
